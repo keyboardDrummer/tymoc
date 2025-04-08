@@ -39,3 +39,7 @@ const expr: ExtendedExpression2 = {
   }
 }
 ```
+
+### Syntax library
+The syntax library defines a grammar DSL. Grammars may be left-recursive.
+The parsers defined using the syntax library are error-correcting and incremental, enabling usage by IDEs.
